@@ -35,6 +35,8 @@ void loop()
         
         if(!(  (a=='\n')||(a=='\0')||(a=='\r')))
         prevLine[i]=a;  
+        else
+         prevLine[i]=' ';
       }
         else
          prevLine[i]=' ';  
